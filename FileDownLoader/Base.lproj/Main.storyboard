@@ -58,6 +58,7 @@
                                                         <constraint firstAttribute="height" constant="44" id="Us2-ju-PNk"/>
                                                         <constraint firstAttribute="width" constant="44" id="zH6-Og-23B"/>
                                                     </constraints>
+                                                    <color key="tintColor" red="1" green="0.28353146810000002" blue="0.13172852330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" image="download"/>
                                                     <connections>
                                                         <action selector="startOrPauseDownloadingSingleFile:" destination="6yD-Ba-fku" eventType="touchUpInside" id="qXm-uy-Afe"/>
@@ -69,6 +70,7 @@
                                                         <constraint firstAttribute="height" constant="44" id="Ufi-wQ-UdH"/>
                                                         <constraint firstAttribute="width" constant="44" id="or7-gI-zVf"/>
                                                     </constraints>
+                                                    <color key="tintColor" red="1" green="0.28353146810000002" blue="0.13172852330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal" image="stop"/>
                                                     <connections>
                                                         <action selector="stopDownloading:" destination="6yD-Ba-fku" eventType="touchUpInside" id="CC2-w9-Gla"/>
@@ -122,6 +124,7 @@
                                     <constraint firstAttribute="width" constant="251" id="3pJ-Fj-5ZO"/>
                                     <constraint firstAttribute="height" constant="30" id="piG-iq-K8y"/>
                                 </constraints>
+                                <color key="tintColor" red="1" green="0.28353146810000002" blue="0.13172852330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Start All Downloads"/>
                                 <connections>
                                     <action selector="startAllDownloads:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yX8-5X-N7P"/>
@@ -133,6 +136,7 @@
                                     <constraint firstAttribute="width" constant="251" id="f6o-Kq-Itb"/>
                                     <constraint firstAttribute="height" constant="30" id="gHc-72-P7q"/>
                                 </constraints>
+                                <color key="tintColor" red="1" green="0.28353146810000002" blue="0.13172852330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Stop All Downloads"/>
                                 <connections>
                                     <action selector="stopAllDownloads:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xw6-D7-ugl"/>
@@ -168,10 +172,11 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jon-8M-Aai" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1aZ-WS-HqR">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="1aZ-WS-HqR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.12612031855589945" green="0.70027162733783987" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="barTintColor" red="1" green="0.28353146805432528" blue="0.13172852329978779" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
